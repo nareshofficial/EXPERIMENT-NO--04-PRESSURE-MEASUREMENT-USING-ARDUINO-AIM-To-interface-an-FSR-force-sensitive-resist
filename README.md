@@ -53,8 +53,8 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 
+C:\Users\admin\OneDrive\Pictures\Screenshots\Screenshot 2024-02-29 114440.png
 
-![image](https://user-images.githubusercontent.com/36288975/163532979-a2a5cb5c-f495-442c-843e-bebb82737a35.png)
 
 
 
@@ -95,8 +95,8 @@ The easiest way to measure a resistive sensor is to connect one end to power and
  
  
 
-![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
 
+C:\Users\admin\OneDrive\Pictures\Screenshots\Screenshot 2024-02-29 114430.png
 
 ### TABLE -02 standard deviation table 
 ### Population Standard Deviation
