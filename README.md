@@ -76,27 +76,42 @@ C:\Users\admin\OneDrive\Pictures\Screenshots\Screenshot 2024-02-29 114440.png
 
 
 ### PROGRAM 
- *your roll no 
- * your name 
- * department and year 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ *your roll no - 212223040127
+ * your name - NARESH.p.s
+ * department and year CSE first year
+```
+int fsr;
+int LED=7;
+void setup()
+{
+  pinMode(LED, OUTPUT);
+  Serial.begin(9600);
+}
 
+void loop()
+{
+  fsr=analogRead(A0);
+  Serial.print("raw value=");
+  Serial.print(fsr);
+  delay(1000);
+  int m;
+  m=map(fsr,0,159,0,10);
+   Serial.print("mapped value");
+  Serial.println(m);
+  delay(100);
+  
+if (m>5);
+{
+  digitalWrite (LED,HIGH);
+   delay(500);
+  digitalWrite(LED,LOW);
+   delay(500);
+}
+}
+``` 
 
-C:\Users\admin\OneDrive\Pictures\Screenshots\Screenshot 2024-02-29 114430.png
+![Screenshot 2024-02-29 114430](https://github.com/nareshofficial/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/155141830/c76fd91a-f2d1-4610-b1b3-c466aa709c38)
+
 
 ### TABLE -02 standard deviation table 
 ### Population Standard Deviation
@@ -114,19 +129,7 @@ For those unfamiliar with summation notation, the equation above may seem daunti
 EX:           μ = (1+3+4+7+8) / 5 = 4.6        
 σ = √[(1 - 4.6)2 + (3 - 4.6)2 + ... + (8 - 4.6)2)]/5
 σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2024-02-29 114440](https://github.com/nareshofficial/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/155141830/129f1ef2-1eb8-4b01-b4e5-f01669b21428)
 
 
 ### RESULTS : Arduino uno is interfaced with FSR and output values are indicated on a graph.
